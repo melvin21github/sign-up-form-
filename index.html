@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOP-sign-up</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <div class="container">
+    <div class="pic">
+      <div class="logoarea">
+        <img src="zvlogo.jpeg" alt="logo" id="logo" />
+        <h1>zons vision</h1>
+      </div>
+    </div>
+    <div class="content">
+      <div class="msg contentitem notformarea">
+        <p>
+          In the zons vision, we have advanced technology, sustainable living,
+          interplanetary travel, and unprecedented scientific discoveries.
+          <br />Let's explore!
+        </p>
+      </div>
+
+      <form action="#" method="post">
+        <div class="form">
+          <p class="form-title">lets do it!</p>
+          <div class="input">
+            <label for="first-name">FIRST NAME:</label>
+            <input type="text" id="first-name" name="first-name" />
+          </div>
+          <div class="input">
+            <label for="last-name">last NAME:</label>
+            <input type="text" id="last-name" name="last-name" />
+          </div>
+          <div class="input">
+            <label for="user-email" required>*email:</label>
+            <input type="email" id="user-email" name="user-email" />
+          </div>
+          <div class="input">
+            <label for="user-phonenumber">phonenumber:</label>
+            <input
+              type="number"
+              id="user-phonenumber"
+              name="user-phonenumber"
+            />
+          </div>
+          <div class="input">
+            <label for="user-password" required>*password:</label>
+            <input
+              type="password"
+              id="user-password"
+              name="user-password"
+              minlength="6"
+            />
+          </div>
+          <div class="input">
+            <label for="confirm-password" required>*confirm-password:</label>
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+            />
+          </div>
+        </div>
+        <button type="submit">submit</button>
+      </form>
+
+      <div class="footer contentitem notformarea">
+        <p>Already have account?<a href="login.html">login</a></p>
+      </div>
+    </div>
+  </div>
+</body>
